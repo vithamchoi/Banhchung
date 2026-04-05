@@ -1,0 +1,60 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.quannhabaninh:banhchung-backend >-----------------
+[INFO] Building Banhchung Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ banhchung-backend ---
+[INFO] Deleting C:\Users\Admin\Downloads\Banhchung\Backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ banhchung-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ banhchung-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 82 source files with javac [debug release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[39,13] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.quannhabaninh.dto.CheckoutRequest
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[39,24] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.quannhabaninh.dto.CheckoutRequest
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[11,1] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.quannhabaninh.dto.CheckoutRequest
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[13,1] cannot find symbol
+  symbol:   class BigDecimal
+  location: class com.quannhabaninh.dto.CheckoutRequest
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.524 s
+[INFO] Finished at: 2026-03-16T11:55:25+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project banhchung-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[39,13] cannot find symbol
+[ERROR]   symbol:   class BigDecimal
+[ERROR]   location: class com.quannhabaninh.dto.CheckoutRequest
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[39,24] cannot find symbol
+[ERROR]   symbol:   class BigDecimal
+[ERROR]   location: class com.quannhabaninh.dto.CheckoutRequest
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[11,1] cannot find symbol
+[ERROR]   symbol:   class BigDecimal
+[ERROR]   location: class com.quannhabaninh.dto.CheckoutRequest
+[ERROR] /C:/Users/Admin/Downloads/Banhchung/Backend/src/main/java/com/quannhabaninh/dto/CheckoutRequest.java:[13,1] cannot find symbol
+[ERROR]   symbol:   class BigDecimal
+[ERROR]   location: class com.quannhabaninh.dto.CheckoutRequest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
